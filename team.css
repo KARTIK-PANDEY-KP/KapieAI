@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  body {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000000;
+      color: #E79E4F;
+      /*background-image: url("https://www.wallpapertip.com/wmimgs/83-838362_web-developer.jpg");*/
+      background-image: url("https://iammagnus.com/wp-content/uploads/2016/05/website-design-background-1.jpg");
+      /*background-image: url("https://images.unsplash.com/photo-1619972898592-5de4b1c68025?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBlbiUyMGFuZCUyMHBhcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");*/
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  nav {
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    min-height: 6vh;
+  }
+  .logo {
+    font-size: 20px;
+    color:white;
+    letter-spacing: 5px;
+    margin-top: 0.8%;;
+  }
+  .nav-links{
+    display:flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 1.5%;;
+  }
+  .nav-links li{
+    list-style: none;
+  }
+  .nav-links a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .burger {
+    margin-top: 2%;
+    display:none;
+    cursor: pointer;
+  }
+  .burger div{
+    width:25px;
+    height :3px;
+    background-color: white;
+    margin:5px;
+  }
+  
+  
+  .div1 {
+    background-color: #0A1931;
+  }
+  
+  h1 {
+      margin-top: 5%;
+  }
+  .div2 {
+    padding: 5%;
+    margin-right: 0;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .div2 p{
+    font-size: 14px;
+    margin-top: 3%;
+    color: #E1E8EB;
+  }
+  .div2 h3{
+    font-weight: 700;
+  }
+  h1 {
+    font-weight: 700;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/834/602/559/computer-keyboards-wallpaper-preview.jpg");
+    }
+    .nav-links{
+        position:absolute;
+        top:7.2vh;
+        height: 40vh;
+        right: 0;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        border-radius: 20px;
+        z-index: 1;
+        transform: translateX(100%);
+    
+    }
+    .nav-links a{
+        color :black;
+    }
+    .burger{
+        display: block;
+    }
+    
+    
+    
+    
+    }
+    .pressed {
+    transform: translateX(0);
+    }
