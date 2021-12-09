@@ -58,7 +58,9 @@
             </label>
         </div>
         <div>
+            <button id="button">Upload Video</button>
             <input type="submit" value="Upload" />
+            
         </div>
       </form>
 
@@ -68,6 +70,11 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="index.js"></script>
+    <script>
+      document.getElementById("button").addEventListener("click",()=>{
+        window.location.href = "video.html";
+      })
+    </script>
 
 </body>
 </html>

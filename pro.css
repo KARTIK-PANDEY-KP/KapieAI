@@ -116,6 +116,18 @@ input[type=submit]{
   margin-top: 0;
 
 }
+#button{
+  background-color:#EEEBDD;
+  display: block;
+  color: black;
+  padding: 1%;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 2%;
+  margin-top: 0;
+
+}
 
 
 
