@@ -80,6 +80,9 @@
   color: white;
   font-family: 'Montserrat',sans-serif;
   padding: 1%;
+  padding-top: 5%;
+  align-items: center;
+  margin-left: 35%;
 }
 label {
   margin: 2%;
@@ -91,6 +94,7 @@ label{
   color: black;
   cursor: pointer;
   border-radius: 10px;
+  
 }
 
 
