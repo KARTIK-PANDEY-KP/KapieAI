@@ -11,7 +11,7 @@ $(".burger").on("click",function(){
   }
 
 })
-const nameArray = ["kartik Pandey","Chirag Singla","Mehul Shah","Klaus Mikaelson"];
+const nameArray = ["Kartik Pandey","Chirag Singla","Mehul Shah","Klaus Mikaelson"];
 const passArray = ["kanpur12","punjab12","nepal12","neworleans12"];
 
 document.getElementById("button").addEventListener('click', () => {

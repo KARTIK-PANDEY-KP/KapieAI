@@ -126,6 +126,7 @@ input[type=password] {
     border-radius: 30px;
     height: 40px;
     font-size: 15px;
+    margin-bottom: 4%;
 }
 hr{
     background-color: black;
