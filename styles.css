@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -39,6 +40,9 @@
     font-size: 15px;
     font-weight: bold;
   }
+  a:hover{
+    color: yellow;
+  }
   .burger {
     margin-top: 2%;
     display:none;
@@ -69,9 +73,12 @@
     margin: 0;
   }
   
-  
+  .realtime {
+    font-family: 'Merriweather';
+    font-weight: 700;
+  }
   .div2 {
-      background-image: url("https://images.unsplash.com/photo-1432847712612-926caafaa802?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmlnaHQlMjB0cmFmZmljfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+      background-image: url("https://i2.wp.com/windowscustomization.com/wp-content/uploads/2018/09/plexus1.gif?fit=750%2C365&quality=80&strip=all&ssl=1");
       height: 600px;
       width: 100%;
       background-size: cover;

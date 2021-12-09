@@ -14,7 +14,7 @@ justify-content: space-around;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 font-weight: 400;
-min-height: 6vh;
+min-height: 8vh;
 }
 .logo {
 font-size: 20px;
@@ -39,6 +39,9 @@ letter-spacing: 3px;
 font-size: 15px;
 font-weight: bold;
 }
+a:hover{
+    color: yellow;
+  }
 .burger {
 margin-top: 2%;
 display:none;

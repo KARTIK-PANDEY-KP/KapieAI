@@ -39,6 +39,9 @@
     font-size: 15px;
     font-weight: bold;
   }
+  a:hover{
+    color: yellow;
+  }
   .burger {
     margin-top: 2%;
     display:none;
@@ -118,6 +121,7 @@ input[type=submit]{
 }
 #button{
   background-color:#EEEBDD;
+  display: block;
   color: black;
   padding: 1%;
   border: 1px solid;
