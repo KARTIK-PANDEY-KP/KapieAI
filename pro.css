@@ -118,7 +118,6 @@ input[type=submit]{
 }
 #button{
   background-color:#EEEBDD;
-  display: block;
   color: black;
   padding: 1%;
   border: 1px solid;

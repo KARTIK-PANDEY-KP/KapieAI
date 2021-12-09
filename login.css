@@ -4,13 +4,6 @@
     box-sizing: border-box;
   
   }
-  #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
   body {
     /*background-image: url("https://wallpapercave.com/wp/wp5569650.jpg");*/
     background-image: url("https://colorlib.com/etc/lf/Login_v16/images/bg-01.jpg");
@@ -24,7 +17,7 @@
 }
   nav {
     display: flex;
-    position: fixed;
+   
     top: 0;
     right: 0;
     left: 0;

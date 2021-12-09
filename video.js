@@ -19,7 +19,7 @@ $(".burger").on("click",function(){
   }
 
 })
-let video;
+/*let video;
 let detector;
 let detections = [];
 
@@ -59,3 +59,4 @@ function draw() {
     text(object.label, object.x + 10, object.y + 24);
   }
 }
+*/
