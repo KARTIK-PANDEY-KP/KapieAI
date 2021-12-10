@@ -33,6 +33,7 @@ function sendData(){
         })
     })
     .then(function(res){ 
+        alert("Message Sent Successfully")
         console.log(res)
         name.value = ""
         email.value = ""
